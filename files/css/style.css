@@ -1,0 +1,145 @@
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2{
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation*/
+
+.nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.nav_panel{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 55px 30px;
+}
+.nav_link{
+    text-decoration: none;
+    margin: 0 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+    position: relative;
+}
+
+.nav_link:after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    transition: opacity .3s linear;
+    z-index: 1;
+}
+
+
+
+.nav_link:hover:after{
+    opacity: 1;
+    display: block;
+}
+
+
+/*header*/
+
+.header{
+    width: 100%;
+    height: 850px;
+    background: url(../img/header/background.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info_slide{
+    width: 800px;
+    padding-left: 45px;
+    padding-top: 140px;
+}
+.info_title{
+    font-size: 74px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.info_suptitle{
+    font-size: 24x;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.info_suptitle:after{
+    content: "";
+    margin-top: 15px;
+    margin-left: 5px;
+    width:  30px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    text-align: center;
+}
+.info_text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.icons{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.ico_link{
+    padding: 7px;
+    font-size: 20px;
+    color: #749caa;
+    background: #fff;
+    border-radius:49% 51% 48% 52% / 53% 51% 49% 47%;
+
+}
+.-ico_link_last{
+    padding: 7px 10px;
+}
+
+.info_btn{
+    width: 210px;
+    height: 70px;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px #fff solid;
+
+    transition: opacity .8s linear;
+}
+
+.info_btn:hover{
+    background: #fff;
+    color: #2f2f2f;
+    font-weight: 800;
+}
