@@ -127,8 +127,8 @@ p{
 .-ico_link_last{
     padding: 7px 10px;
 }
-
-.info_btn{
+ /*buttton*/
+.button{
     width: 210px;
     height: 70px;
     background: transparent;
@@ -139,13 +139,28 @@ p{
     color: #fff;
     border: 1px #fff solid;
 
-    transition: opacity .8s linear;
+    transition: background .5s linear;
+    transition: color .5s linear;
 }
 
-.info_btn:hover{
+.button:hover{
     background: #fff;
     color: #2f2f2f;
     font-weight: 800;
+}
+
+.-sponsors_btn{
+    width: 290px;
+    border: 1px #2f2f2f solid;
+    color: #2f2f2f;
+    transition: background .5s linear;
+    transition: color .5s linear;
+}
+.-sponsors_btn:hover{
+    background: #2f2f2f;
+    color: #fff;
+    font-weight: 800;
+
 }
 
 /*section*/
@@ -405,4 +420,21 @@ p{
     font-weight: 400;
     color: #2f2f2f;
     font-size: 12px;
+}
+
+/*sponsors*/
+
+.sponsors_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    margin-bottom: 16px;
+}
+.sponsors_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
 }
