@@ -14,6 +14,10 @@ h1,h2{
     padding: 0;
 }
 
+p{
+    margin: 0;
+    padding: 0;
+}
 /*navigation*/
 
 .nav{
@@ -161,7 +165,7 @@ h1,h2{
      font-size: 21px;
      text-transform: uppercase;
      color: #2f2f2f;
-     margin: 10px 0;
+     margin-top: 10px;
 
 }
 .section_text{
@@ -169,6 +173,16 @@ h1,h2{
      font-weight: 400;
      font-size: 16px;
      color: #929292;
+     margin-top: 10px;
+}
+.-section_acenda{
+    margin-bottom: 40px;
+    }
+.-section_text_acenda{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 2px;
 }
 
 /*speakers*/
@@ -207,6 +221,7 @@ h1,h2{
 }
 .speaker_title{
      margin-top: 80px;
+     margin-bottom: 10px;
      font-family: 'Montserrat', sans-serif;
      font-weight: 800;
      font-size: 21px;
@@ -232,4 +247,95 @@ h1,h2{
 .ico_speaker{
     color: #2f2f2f;
     font-size: 20px;
+}
+
+/*acenda*/
+.acenda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.acenda_title{
+    text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 400;
+     font-size: 23px;
+     margin-bottom: 30px;
+}
+.acenda_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.acenda_item{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin: 0 10px;
+
+}
+.acenda_time{
+    width: 50%;
+}
+.acenda_work{
+    width: 50%;
+}
+.acenda_time_text{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.acenda_time_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.acenda_work_text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.-acenda_work_text_active{
+    max-width: 500px;
+}
+
+.acenda_homework{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px #2f2f2f solid;
+    padding: 5px;
+    height: 60px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.-acenda_homework_active{
+    background: #2f2f2f;
+    color: #fff;
+    max-height: 480px;
+    height: auto;
+
+}
+.-acenda_left_border{
+    border: none;
+    border-left: 1px #2f2f2f solid;
+    font-size: 0;
+    height: 30px;
+    color: transparent;
+}
+.acenda_rigt_border{
+    font-size: 0;
+    color: transparent;
 }
