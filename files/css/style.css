@@ -339,3 +339,70 @@ p{
     font-size: 0;
     color: transparent;
 }
+
+/*auditorium*/
+
+.auditorium{
+    width: 100%;
+    height: 850px;
+    background: url(../img/auditorium/background.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.audi_block{
+    height:371px;
+    width: 412px;
+    background: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 180px;
+}
+
+.audi_ico{
+    margin-bottom: 10px;
+}
+.audi_title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #2f2f2f;
+}
+.audi_location{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #636363;
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 30px;
+
+}
+.audi_adress{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #2f2f2f;
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.audi_numbers{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #2f2f2f;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.audi_email{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #2f2f2f;
+    font-size: 12px;
+}
